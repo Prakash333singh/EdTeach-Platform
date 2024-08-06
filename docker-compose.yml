@@ -10,7 +10,8 @@ services:
       - mongo-data:/data/db
 
   backend:
-    build: ./backend
+    build:
+      context: ./backend
     container_name: backend
     ports:
       - "5000:5000"
@@ -20,7 +21,8 @@ services:
       - MONGO_URI=mongodb://mongo:27017/test
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
     container_name: frontend
     ports:
       - "3000:80"
