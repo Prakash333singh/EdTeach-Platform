@@ -1,0 +1,16 @@
+#use the official Nodejs image
+FROM node:14
+
+#create and change to the app directory
+WORKDIR /the/workdir/path
+
+# Install app dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy app source code
+COPY . .
+
+# Expose the port the app runs on
+EXPOSE 5000
+
