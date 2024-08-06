@@ -11,9 +11,6 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 
 <hr/>
 
-<h2>Live link 🌍📡 - [  ]</h2>
-
-<hr/>
 
 <img width='100%' src='https://github.com/Prakash333singh/EdTeach-Platform/blob/main/screenshots/home1.png' />
 
