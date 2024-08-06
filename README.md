@@ -8,6 +8,7 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 <hr/>
 
 # <h2>Live link 🌍📡 - [ ]</h2>
+# <h2>Backend link 🌍📡 - [ https://edteach-platform.onrender.com/]</h2>
 
 <hr/>
 
